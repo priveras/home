@@ -203,20 +203,7 @@
     <script src="assets/js/toolkit.js"></script>
     <script src="assets/js/application.js"></script>
 
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-
-    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"f77dbe29451bb5827122afaf2","lid":"635c52ff21"}) })
-
-    </script>
-
-    <script>
-    function showMailingPopUp() {
-        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"f77dbe29451bb5827122afaf2","lid":"635c52ff21"}) })
-        document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    };
-
-    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-    </script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"f77dbe29451bb5827122afaf2","lid":"635c52ff21"}) })</script>
 
   </body>
 </html>
